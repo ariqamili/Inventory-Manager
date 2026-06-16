@@ -1,0 +1,61 @@
+# ========================
+# ENV FILES
+# ========================
+.env
+.env.*
+.env.backup
+
+# ========================
+# DEPENDENCIES
+# ========================
+/vendor/
+/node_modules/
+
+# ========================
+# LARAVEL STORAGE
+# ========================
+/storage/*.key
+/storage/pail
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+/bootstrap/cache/*.php
+
+# ========================
+# BUILDS
+# ========================
+/public/build
+/public/hot
+/public/storage
+
+# ========================
+# LOGS
+# ========================
+*.log
+
+# ========================
+# TESTING
+# ========================
+.phpunit.result.cache
+
+# ========================
+# IDE / EDITORS
+# ========================
+.idea/
+.vscode/
+.phpactor.json
+.zed/
+.nova/
+
+# ========================
+# OS FILES
+# ========================
+.DS_Store
+Thumbs.db
+
+# ========================
+# AUTH
+# ========================
+auth.json
+Homestead.json
+Homestead.yaml
